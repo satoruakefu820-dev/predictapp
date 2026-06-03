@@ -1,11 +1,11 @@
 <?php
 
 $conn = new mysqli(
-    "mysql.railway.internal",
+    "metro.proxy.rlwy.net",
     "root",
     "EGRGopdYXDOptbuKYrEzTaRPbvktHFnH",
     "railway",
-    3306
+    33198
 );
 
 if ($conn->connect_error) {
