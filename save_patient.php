@@ -1,21 +1,4 @@
-<?php
 
-include "db_connect.php";
-
-// СОЗДАНИЕ ТАБЛИЦЫ
-$conn->query("
-CREATE TABLE IF NOT EXISTS patients (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    fullname VARCHAR(100),
-    age VARCHAR(10),
-    gender VARCHAR(10),
-    phone VARCHAR(20)
-)
-");
-
-echo "TABLE CREATED";
-exit();
-?>
 
 <?php
 
