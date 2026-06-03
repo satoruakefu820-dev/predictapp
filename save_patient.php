@@ -1,9 +1,4 @@
 <?php
-echo "SERVER WORKS";
-exit();
-?>
-
-<?php
 
 include "db_connect.php";
 
