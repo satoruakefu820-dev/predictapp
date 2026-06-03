@@ -1,15 +1,11 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$password = "root123";
-$database = "DiseasePredictionDB";
-
 $conn = new mysqli(
-    $host,
-    $user,
-    $password,
-    $database
+    "mysql.railway.internal",
+    "root",
+    "EGRGopdYXDOptbuKYrEzTaRPbvktHFnH",
+    "railway",
+    3306
 );
 
 if ($conn->connect_error) {
