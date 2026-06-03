@@ -1,5 +1,8 @@
 FROM php:8.2-cli
 
+# Устанавливаем mysqli
+RUN docker-php-ext-install mysqli
+
 WORKDIR /app
 
 COPY . .
